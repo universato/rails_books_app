@@ -11,8 +11,8 @@
 </p>
 
 <p>
-  <strong>Author:</strong>
-  <%= @book.author %>
+  <strong>Picture:</strong>
+  <%= image_tag(@book.picture_url) if @book.picture.present? %>
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
