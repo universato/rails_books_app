@@ -65,3 +65,6 @@ gem "rubocop-performance"
 gem "rubocop-rails"
 
 gem "kaminari"
+
+gem "devise"
+gem "devise-i18n"
