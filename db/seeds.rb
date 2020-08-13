@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-5.upto(108) do |i|
+start_id = Book.last.id + 1
+end_id = start_id + 100
+start_id.upto(end_id) do |i|
   title = "title #{i.to_s.rjust(3)}"
   memo = "memo #{i.to_s.rjust(3)}"
   author = "author #{i.to_s.rjust(3)}"
