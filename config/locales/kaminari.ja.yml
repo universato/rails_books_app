@@ -1,0 +1,17 @@
+ja:
+  helpers:
+    page_entries_info:
+      more_pages:
+        display_entries: "全%{total}件"
+      one_page:
+        display_entries:
+          zero: "書籍はまだありません。登録できるよ！"
+          one: "全%{count}件。もっと増やそう！"
+          other: "全%{count}件。増やせるよ！"
+  views:
+    pagination:
+      previous: 前へ
+      next: 次へ
+      first: 最初
+      last: 最後
+      truncate: ……
