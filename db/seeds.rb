@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 start_id = (Book.last&.id || 0) + 1
+
 end_id = start_id + 5
 start_id.upto(end_id) do |i|
   title = "title #{i.to_s.rjust(3)}"
