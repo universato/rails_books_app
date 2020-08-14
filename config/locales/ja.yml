@@ -10,10 +10,3 @@ ja:
     postcode: 郵便番号 
     address: 住所
     profile: プロフィール
-  views:
-    pagination:
-      previous: 前へ
-      next: 次へ
-      first: 最初
-      last: 最後
-      truncate: ……
